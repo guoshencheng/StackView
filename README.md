@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Require iOS 6 later because It uses Autulayout
 
 ## Installation
 
@@ -17,12 +18,13 @@ StackView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "StackView"
+pod 'StackView', :git => 'https://github.com/guoshencheng/StackView.git'
 ```
+It depends [Masonry](https://github.com/SnapKit/Masonry)
 
 ## Author
 
-guoshencheng, 648772021@qq.com
+guoshencheng, guoshencheng1@gmail.com
 
 ## License
 
