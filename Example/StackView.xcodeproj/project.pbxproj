@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E8C06C21BC646AE00983FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06B11BC646AE00983FFE /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		2E8C06C31BC646AE00983FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06B21BC646AE00983FFE /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		2E8C06C51BC646AE00983FFE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06B61BC646AE00983FFE /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		2E8C06C61BC646AE00983FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06B71BC646AE00983FFE /* main.m */; settings = {ASSET_TAGS = (); }; };
+		2E8C06C81BC646AE00983FFE /* StackViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06BB1BC646AE00983FFE /* StackViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2E8C06C91BC646AE00983FFE /* StackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06BC1BC646AE00983FFE /* StackViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2E8C06CA1BC646AE00983FFE /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06BE1BC646AE00983FFE /* StackViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2E8C06CB1BC646AE00983FFE /* StackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06BF1BC646AE00983FFE /* StackViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		38681F6BBC8869F04BD2F68A /* Pods_StackView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D57F2814ABFEFC4F42F9140 /* Pods_StackView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3B396CE8CF822A4E0208E5CA /* Pods_StackView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DFC7008E00203170B404D9 /* Pods_StackView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* GSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GSCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* GSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GSCViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,27 +41,29 @@
 		119C46F40838E4C3A0CA4717 /* Pods-StackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackView_Example/Pods-StackView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1706EA6D26D7A7C6D78DE86E /* Pods-StackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackView_Tests/Pods-StackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2005E88417D2511064476F5A /* Pods-StackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackView_Tests/Pods-StackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* StackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StackView.app; path = StackView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C06B01BC646AE00983FFE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E8C06B11BC646AE00983FFE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E8C06B21BC646AE00983FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8C06B61BC646AE00983FFE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8C06B71BC646AE00983FFE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E8C06BA1BC646AE00983FFE /* StackViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewCell.h; sourceTree = "<group>"; };
+		2E8C06BB1BC646AE00983FFE /* StackViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewCell.m; sourceTree = "<group>"; };
+		2E8C06BC1BC646AE00983FFE /* StackViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackViewCell.xib; sourceTree = "<group>"; };
+		2E8C06BD1BC646AE00983FFE /* StackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewController.h; sourceTree = "<group>"; };
+		2E8C06BE1BC646AE00983FFE /* StackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewController.m; sourceTree = "<group>"; };
+		2E8C06BF1BC646AE00983FFE /* StackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackViewController.xib; sourceTree = "<group>"; };
+		2E8C06CD1BC648F200983FFE /* StackView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StackView-Prefix.pch"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* StackView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* StackView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackView-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* StackView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackView-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* GSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* GSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* GSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* GSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = StackView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* StackView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		85DB892F23CCB8ABF1745DCB /* Pods-StackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackView_Example/Pods-StackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9D57F2814ABFEFC4F42F9140 /* Pods_StackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6E99E9CA524D873393FD1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BCC10E7A50E8F682E8A4A1D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -93,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E8C06B31BC646AE00983FFE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +119,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* StackView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* StackView_Example.app */,
+				6003F5AE195388D20070C39A /* StackView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,27 +141,22 @@
 		6003F593195388D20070C39A /* Example for StackView */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* GSCAppDelegate.h */,
-				6003F59D195388D20070C39A /* GSCAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GSCViewController.h */,
-				6003F5A6195388D20070C39A /* GSCViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
+				2E8C06CD1BC648F200983FFE /* StackView-Prefix.pch */,
+				2E8C06B01BC646AE00983FFE /* AppDelegate.h */,
+				2E8C06B11BC646AE00983FFE /* AppDelegate.m */,
+				2E8C06B21BC646AE00983FFE /* Assets.xcassets */,
+				2E8C06B31BC646AE00983FFE /* Base.lproj */,
+				2E8C06B61BC646AE00983FFE /* Info.plist */,
+				2E8C06B71BC646AE00983FFE /* main.m */,
+				2E8C06BA1BC646AE00983FFE /* StackViewCell.h */,
+				2E8C06BB1BC646AE00983FFE /* StackViewCell.m */,
+				2E8C06BC1BC646AE00983FFE /* StackViewCell.xib */,
+				2E8C06BD1BC646AE00983FFE /* StackViewController.h */,
+				2E8C06BE1BC646AE00983FFE /* StackViewController.m */,
+				2E8C06BF1BC646AE00983FFE /* StackViewController.xib */,
 			);
 			name = "Example for StackView";
 			path = StackView;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* StackView-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* StackView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -213,7 +219,7 @@
 			);
 			name = StackView_Example;
 			productName = StackView;
-			productReference = 6003F58A195388D20070C39A /* StackView.app */;
+			productReference = 6003F58A195388D20070C39A /* StackView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* StackView_Tests */ = {
@@ -234,7 +240,7 @@
 			);
 			name = StackView_Tests;
 			productName = StackViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* StackView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -247,6 +253,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = guoshencheng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 53H2AVD649;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,9 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2E8C06C51BC646AE00983FFE /* Info.plist in Resources */,
+				2E8C06CB1BC646AE00983FFE /* StackViewController.xib in Resources */,
+				2E8C06C91BC646AE00983FFE /* StackViewCell.xib in Resources */,
+				2E8C06C31BC646AE00983FFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,9 +400,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* GSCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* GSCViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				2E8C06CA1BC646AE00983FFE /* StackViewController.m in Sources */,
+				2E8C06C81BC646AE00983FFE /* StackViewCell.m in Sources */,
+				2E8C06C61BC646AE00983FFE /* main.m in Sources */,
+				2E8C06C21BC646AE00983FFE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,14 +426,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -511,12 +514,15 @@
 			baseConfigurationReference = 85DB892F23CCB8ABF1745DCB /* Pods-StackView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackView/StackView-Prefix.pch";
-				INFOPLIST_FILE = "StackView/StackView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/StackView/Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = guoshencheng.StackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -526,12 +532,15 @@
 			baseConfigurationReference = 119C46F40838E4C3A0CA4717 /* Pods-StackView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackView/StackView-Prefix.pch";
-				INFOPLIST_FILE = "StackView/StackView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/StackView/Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = guoshencheng.StackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

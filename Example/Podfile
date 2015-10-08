@@ -8,5 +8,4 @@ end
 target 'StackView_Tests', :exclusive => true do
   pod "StackView", :path => "../"
 
-  
 end
