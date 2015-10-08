@@ -1,9 +1,9 @@
 # StackViewComponent
 
-[![CI Status](http://img.shields.io/travis/guoshencheng/StackView.svg?style=flat)](https://travis-ci.org/guoshencheng/StackView)
-[![Version](https://img.shields.io/cocoapods/v/StackView.svg?style=flat)](http://cocoapods.org/pods/StackView)
-[![License](https://img.shields.io/cocoapods/l/StackView.svg?style=flat)](http://cocoapods.org/pods/StackView)
-[![Platform](https://img.shields.io/cocoapods/p/StackView.svg?style=flat)](http://cocoapods.org/pods/StackView)
+[![CI Status](http://img.shields.io/travis/guoshencheng/StackViewComponent.svg?style=flat)](https://travis-ci.org/guoshencheng/StackViewComponent)
+[![Version](https://img.shields.io/cocoapods/v/StackViewComponent.svg?style=flat)](http://cocoapods.org/pods/StackViewComponent)
+[![License](https://img.shields.io/cocoapods/l/StackViewComponent.svg?style=flat)](http://cocoapods.org/pods/StackViewComponent)
+[![Platform](https://img.shields.io/cocoapods/p/StackViewComponent.svg?style=flat)](http://cocoapods.org/pods/StackViewComponent)
 
 <video id="video" style="width: 320px" controls="" preload="none" poster="./ScreenShot.png">
       <source id="mp4" src="./ScreenShot.mp4">
