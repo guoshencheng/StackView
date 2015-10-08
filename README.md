@@ -5,10 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/StackViewComponent.svg?style=flat)](http://cocoapods.org/pods/StackViewComponent)
 [![Platform](https://img.shields.io/cocoapods/p/StackViewComponent.svg?style=flat)](http://cocoapods.org/pods/StackViewComponent)
 
-<video id="video" style="width: 320px" controls="" preload="none" poster="./ScreenShot.png">
-      <source id="mp4" src="./ScreenShot.mp4">
-</video>
-
+![ScreenShot](./ScreenShot.gif)
 
 ## Usage
 
