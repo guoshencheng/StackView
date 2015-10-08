@@ -2,10 +2,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'StackView_Example', :exclusive => true do
-  pod "StackView", :path => "../"
+  pod "StackViewComponent", :path => "../"
 end
 
 target 'StackView_Tests', :exclusive => true do
-  pod "StackView", :path => "../"
+  pod "StackViewComponent", :path => "../"
 
 end

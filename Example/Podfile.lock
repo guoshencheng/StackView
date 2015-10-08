@@ -1,17 +1,17 @@
 PODS:
   - Masonry (0.6.3)
-  - StackView (0.1.0):
+  - StackViewComponent (0.1.0):
     - Masonry
 
 DEPENDENCIES:
-  - StackView (from `../`)
+  - StackViewComponent (from `../`)
 
 EXTERNAL SOURCES:
-  StackView:
+  StackViewComponent:
     :path: ../
 
 SPEC CHECKSUMS:
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
-  StackView: b4f73cc69ca17a932c7ce76acce4fd2e5236615c
+  StackViewComponent: c68ad1fe808f91579e571bcbe8985ec806de1a37
 
 COCOAPODS: 0.38.2

@@ -1,15 +1,15 @@
 //
-//  StackView.m
+//  StackViewComponent.m
 //  StackView
 //
 //  Created by guoshencheng on 10/5/15.
 //  Copyright © 2015 guoshencheng. All rights reserved.
 //
 
-#import "StackView.h"
+#import "StackViewComponent.h"
 #import "Masonry.h"
 
-@interface StackView ()
+@interface StackViewComponent ()
 
 @property (nonatomic, assign) CGPoint panGestureStartLocation;
 @property (nonatomic, strong) NSMutableDictionary *reusabelCellIdDictionary;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation StackView {
+@implementation StackViewComponent {
     NSInteger currentIndex;
 }
 

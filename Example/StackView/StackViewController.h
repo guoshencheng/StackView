@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "StackView.h"
+#import "StackViewComponent.h"
 @interface StackViewController : UIViewController<StackViewDatasource>
 
-@property (weak, nonatomic) IBOutlet StackView *stackView;
+@property (weak, nonatomic) IBOutlet StackViewComponent *stackView;
 + (instancetype)create;
 
 @end

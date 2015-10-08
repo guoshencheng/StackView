@@ -1,5 +1,5 @@
 //
-//  StackView.h
+//  StackViewComponent.h
 //  StackView
 //
 //  Created by guoshencheng on 10/5/15.
@@ -11,7 +11,7 @@
 
 @protocol StackViewDatasource;
 
-@interface StackView : UIView<UIGestureRecognizerDelegate>
+@interface StackViewComponent : UIView<UIGestureRecognizerDelegate>
 
 /**
  * It's a property save cells and handle cell actions
@@ -53,20 +53,20 @@
  *
  *  Datasource for getting cell for index
  */
-- (UIView *)stackView:(StackView *)stackView cellForIndex:(NSInteger)index;
+- (UIView *)stackView:(StackViewComponent *)stackView cellForIndex:(NSInteger)index;
 
 /**
  * Datasource for getting cell Size for index
  *
  */
-- (CGSize)stackViewCellSize:(StackView *)stackView;
+- (CGSize)stackViewCellSize:(StackViewComponent *)stackView;
 
 
 /**
  * Datasource for getting cell Number for index
  *
  */
-- (NSInteger)stackViewNumberOfRow:(StackView *)stackView;
+- (NSInteger)stackViewNumberOfRow:(StackViewComponent *)stackView;
 
 @optional
 

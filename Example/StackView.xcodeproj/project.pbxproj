@@ -67,7 +67,7 @@
 		9D57F2814ABFEFC4F42F9140 /* Pods_StackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6E99E9CA524D873393FD1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BCC10E7A50E8F682E8A4A1D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BF6A363AA4AE56DA1397BFE5 /* StackView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StackView.podspec; path = ../StackView.podspec; sourceTree = "<group>"; };
+		BF6A363AA4AE56DA1397BFE5 /* StackViewComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StackViewComponent.podspec; path = ../StackViewComponent.podspec; sourceTree = "<group>"; };
 		F6DFC7008E00203170B404D9 /* Pods_StackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,7 +181,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				BF6A363AA4AE56DA1397BFE5 /* StackView.podspec */,
+				BF6A363AA4AE56DA1397BFE5 /* StackViewComponent.podspec */,
 				BCC10E7A50E8F682E8A4A1D5 /* README.md */,
 				BC6E99E9CA524D873393FD1E /* LICENSE */,
 			);

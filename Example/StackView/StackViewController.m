@@ -35,11 +35,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (NSInteger)stackViewNumberOfRow:(StackView *)stackView {
+- (NSInteger)stackViewNumberOfRow:(StackViewComponent *)stackView {
     return texts.count;
 }
 
-- (UIView *)stackView:(StackView *)stackView cellForIndex:(NSInteger)index {
+- (UIView *)stackView:(StackViewComponent *)stackView cellForIndex:(NSInteger)index {
     texts = @[@"hehe", @"haha", @"hoho", @"xixi", @"lulu"];
     StackViewCell *view = (StackViewCell *)[stackView dequeueReusableCellWithReuseIdentifier:@"StackViewCell" forIndex:index];
     view.backgroundColor = [UIColor whiteColor];
@@ -47,7 +47,7 @@
     return view;
 }
 
-- (CGSize)stackViewCellSize:(StackView *)stackView {
+- (CGSize)stackViewCellSize:(StackViewComponent *)stackView {
     return CGSizeMake(240, 300);
 }
 

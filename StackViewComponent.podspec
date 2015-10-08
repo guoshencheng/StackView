@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "StackView"
+  s.name             = "StackViewComponent"
   s.version          = "0.1.0"
   s.summary          = "A component display like a Stack."
 
