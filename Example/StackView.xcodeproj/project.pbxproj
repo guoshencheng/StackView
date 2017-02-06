@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E8C06C21BC646AE00983FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06B11BC646AE00983FFE /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		2E8C06C31BC646AE00983FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06B21BC646AE00983FFE /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		2E8C06C51BC646AE00983FFE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06B61BC646AE00983FFE /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		2E8C06C61BC646AE00983FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06B71BC646AE00983FFE /* main.m */; settings = {ASSET_TAGS = (); }; };
-		2E8C06C81BC646AE00983FFE /* StackViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06BB1BC646AE00983FFE /* StackViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		2E8C06C91BC646AE00983FFE /* StackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06BC1BC646AE00983FFE /* StackViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		2E8C06CA1BC646AE00983FFE /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06BE1BC646AE00983FFE /* StackViewController.m */; settings = {ASSET_TAGS = (); }; };
-		2E8C06CB1BC646AE00983FFE /* StackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06BF1BC646AE00983FFE /* StackViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2E8C06C21BC646AE00983FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06B11BC646AE00983FFE /* AppDelegate.m */; };
+		2E8C06C31BC646AE00983FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06B21BC646AE00983FFE /* Assets.xcassets */; };
+		2E8C06C51BC646AE00983FFE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06B61BC646AE00983FFE /* Info.plist */; };
+		2E8C06C61BC646AE00983FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06B71BC646AE00983FFE /* main.m */; };
+		2E8C06C81BC646AE00983FFE /* StackViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06BB1BC646AE00983FFE /* StackViewCell.m */; };
+		2E8C06C91BC646AE00983FFE /* StackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06BC1BC646AE00983FFE /* StackViewCell.xib */; };
+		2E8C06CA1BC646AE00983FFE /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06BE1BC646AE00983FFE /* StackViewController.m */; };
+		2E8C06CB1BC646AE00983FFE /* StackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06BF1BC646AE00983FFE /* StackViewController.xib */; };
 		38681F6BBC8869F04BD2F68A /* Pods_StackView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D57F2814ABFEFC4F42F9140 /* Pods_StackView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3B396CE8CF822A4E0208E5CA /* Pods_StackView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DFC7008E00203170B404D9 /* Pods_StackView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -206,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "StackView_Example" */;
 			buildPhases = (
-				6787176AA12609A0DC5CCB3D /* Check Pods Manifest.lock */,
+				6787176AA12609A0DC5CCB3D /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				DED77545657AB0592848D747 /* Embed Pods Frameworks */,
-				B644713A2D7B4E9468DD87A1 /* Copy Pods Resources */,
+				DED77545657AB0592848D747 /* [CP] Embed Pods Frameworks */,
+				B644713A2D7B4E9468DD87A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,12 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "StackView_Tests" */;
 			buildPhases = (
-				613F4601776894AC513723DF /* Check Pods Manifest.lock */,
+				613F4601776894AC513723DF /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				2DE1C407EC83A9FC0BB08FBF /* Embed Pods Frameworks */,
-				B75B7DAC0ABDF65FBDBAAF86 /* Copy Pods Resources */,
+				2DE1C407EC83A9FC0BB08FBF /* [CP] Embed Pods Frameworks */,
+				B75B7DAC0ABDF65FBDBAAF86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,14 +303,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DE1C407EC83A9FC0BB08FBF /* Embed Pods Frameworks */ = {
+		2DE1C407EC83A9FC0BB08FBF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,44 +318,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackView_Tests/Pods-StackView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		613F4601776894AC513723DF /* Check Pods Manifest.lock */ = {
+		613F4601776894AC513723DF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6787176AA12609A0DC5CCB3D /* Check Pods Manifest.lock */ = {
+		6787176AA12609A0DC5CCB3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B644713A2D7B4E9468DD87A1 /* Copy Pods Resources */ = {
+		B644713A2D7B4E9468DD87A1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,14 +363,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackView_Example/Pods-StackView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B75B7DAC0ABDF65FBDBAAF86 /* Copy Pods Resources */ = {
+		B75B7DAC0ABDF65FBDBAAF86 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,14 +378,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackView_Tests/Pods-StackView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DED77545657AB0592848D747 /* Embed Pods Frameworks */ = {
+		DED77545657AB0592848D747 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -519,10 +519,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackView/StackView-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/StackView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = guoshencheng.StackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -537,10 +539,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackView/StackView-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/StackView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = guoshencheng.StackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

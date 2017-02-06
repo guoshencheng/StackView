@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (1.0.2)
+  - StackViewComponent (0.1.2):
+    - Masonry
+
+DEPENDENCIES:
+  - StackViewComponent (from `../`)
+
+EXTERNAL SOURCES:
+  StackViewComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  StackViewComponent: 55386622ab679d1d71882b6a006a00fcbf564859
+
+PODFILE CHECKSUM: a5f8dc3088904fcaa08dbaab1300e69839ed59c0
+
+COCOAPODS: 1.1.1
